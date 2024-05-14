@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío Black and White</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Cambiador de fotos</h1>
+    <h1 class="title">Black and White Spa</h1>
     <div>
-        <form action="/editar">
-            <div>
-                <label for="fname">Imagen url:</label><br>
-                <input name="text" id="fname" ></input>
+        <form class="form-container" action="/editar" method="post">
+            <div class="formulario">
+                <label for="fname">Imagen URL:</label>
+                <input class="url" name="url" id="fname" ></input>
+                <button class="boton" type="submit">Subir imagen al servidor</button>
             </div>
-            <button type="submit">Subir imagen al servidor</button>
+            
         </form>
     </div>
 </body>

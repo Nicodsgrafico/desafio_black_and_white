@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.url{
+    font-size: 12px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.boton{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
